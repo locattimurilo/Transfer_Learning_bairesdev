@@ -3,7 +3,7 @@ Projeto referente a atividade: Treinamento de Redes Neurais com Transfer Learnin
 
 No trecho de código:
 
-"data = []
+"data = [ ]
 
 for c, category in enumerate(categories):´[..]"
 
