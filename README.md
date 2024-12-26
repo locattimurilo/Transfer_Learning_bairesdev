@@ -7,8 +7,6 @@ No trecho de código:
 
 for c, category in enumerate(categories):´[..]"
 
-A memória RAM do collab, mesmo configurada para uso no T4 GPU, não suporta analisar todas as imagens (12.501 para gatos e 12.501 para cachorros), especialmente após configurar um limite para esse número. Outra questão é que há imagens corrompidas e a memória não consegue processar para excluí-las. Percebi isso ao limitar a quantidade de imagens. Aumentei o número de "Epochs" Batch_Size(aumentei para 256), mas a memória GPU não suportou novamente, então mantive os valores como estavam, apenas para exemplificar (epochs deixei em 20). Espero que a acurácia não limite minha avaliação e desempenho.
+A memória RAM do collab, mesmo configurada para uso no T4 GPU, não suporta analisar todas as imagens (12.501 para gatos e 12.501 para cachorros), especialmente após configurar um limite para esse número. Outra questão é que há imagens corrompidas e a memória não consegue processar para excluí-las. Percebi isso ao limitar a quantidade de imagens. Aumentei o número de "Epochs" Batch_Size(aumentei para 256), mas a memória GPU não suportou novamente, então mantive os valores como estavam, apenas para exemplificar (epochs deixei em 20). 
 
 Traduzi algumas mensagens para o usuário final e pretendo agora criar um modelo com meu próprio dataset. No entanto, optei por não fugir do exemplo inicial neste projeto.
-
-Adorei o sistema e espero me aprofundar mais. Sei que bibliotecas abertas nem sempre garantem segurança avançada para empresas privadas, mas espero poder entendê-las e, quem sabe, criar as minhas próprias no futuro! Estou animado com o curso e espero ter atendido às expectativas.
